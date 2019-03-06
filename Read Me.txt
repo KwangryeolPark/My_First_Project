@@ -1,0 +1,74 @@
+This program is printing a certain graph.
+It includes <stdio.h> (standard I/O), <math.h>
+
+The PI value is 3.141592653589793238
+
+
+
+
+
+Function :
+
+Name : Degree_To Radians
+Type : double
+Function : Convert the degree to radians
+
+Input : degree
+
+Output : degree / 180 * PI;		PI : 3.141592653589793238
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+Name : draw_sin_wave
+Type : void
+Funcion : Draw a sin wave.
+	The row is positive direction of X-axis
+	and the column is the positive direction of the Y-axis.
+
+
+Input : nothing
+
+Output : Print a sin wave, 0 to 720 degree, The amplitude is 20.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Name : draw_rect
+Type : void
+Function : Paints a specific range
+	You have to make a function like y = x;
+	function[0] to function[9] is a kind of ranges.
+	
+	The default range : 
+		y <= x*5
+		y >= x
+		y >= 50 - x
+		y <= 100 -x
+
+Input : Field width, height
+
+Output : A specific range
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Name : draw_circle
+Type : void
+Function : Paints a circle range
+	It is similar to function "draw_rect"
+	but the different is that the function, "draw_rect" paints a certain space
+	and the function, "draw_circle" fills the inner space of corresponding circle.
+
+	The default space :
+		5(x - 50)^2 + (y - 50)^2 <= 2500;
+
+Input : Center x, y coordinates and radius
+
+Output : A certain field. 
+
+
+
+
+
+
